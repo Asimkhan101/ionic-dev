@@ -1,13 +1,24 @@
-
-
 <ion-content>
-  <ion-button color="primary">Primary</ion-button>
-  <ion-button color="secondary">Secondary</ion-button>
-  <ion-button color="tertiary">Tertiary</ion-button>
-  <ion-button color="success">Success</ion-button>
-  <ion-button color="warning">Warning</ion-button>
-  <ion-button color="danger">Danger</ion-button>
-  <ion-button color="light">Light</ion-button>
-  <ion-button color="medium">Medium</ion-button>
-  <ion-button color="dark">Dark</ion-button>
+  <div class="flex-center">
+    <ion-card>
+      <ion-card-header>
+
+        <ion-card-title color="warning">Globotix</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-item>
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="email"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Password</ion-label>
+            <ion-input type="Password"></ion-input>
+          </ion-item>
+          <ion-button color="dark" fill="clear" size="full">Forgot email/password</ion-button>
+          <ion-button color="success" size="full">Login</ion-button>
+          <ion-button color="success" size="full" fill="clear">Register</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
 </ion-content>
