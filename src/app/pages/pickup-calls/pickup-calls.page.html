@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-buttons slot="start">
+      <ion-back-button text="">
+
+      </ion-back-button>
+
+    </ion-buttons>
+    <ion-title> My pickup call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-pickup-call-card  color="danger" name="hourglass-outline"status="On Hold" updatedAt="29/06/2022 12:30" createdAt=" Created at 25/06/2022" notes="we have two bags that are full,one with plastic and the other with glases"></app-pickup-call-card>
+  <app-pickup-call-card  color="dark" name="archive-outline" status="Processing" updatedAt="20/06/2022 12:30" createdAt=" Created at 15/06/2022" notes="we have two bags that are full,one with plastic and the other with glases"></app-pickup-call-card>
+
+
+
+
+
+
+  <ion-card size="full">
+
+    <ion-card-content>
+      <ion-item lines="none">
+        <ion-icon name="checkmark-circle-outline" slot="start" color="primary"> </ion-icon>
+        <ion-label>
+          Finished
+          <p>10/04/2022 12:20</p>
+        </ion-label>
+
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>
+          <p>Created at 27/04/2022</p>
+          <p>Notes: we have two bags that are full,one with plastic and the other with glases</p>
+        </ion-label>
+      </ion-item>
+
+<ion-item lines="none">
+  <ion-icon name="trophy" slot="start" color="success"></ion-icon>
+  <ion-label color="success">$15,000</ion-label>
+
+</ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
