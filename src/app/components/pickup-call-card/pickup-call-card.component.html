@@ -17,7 +17,14 @@
       <ion-label>
         <p>{{createdAt}}</p>
         <p>Notes:{{notes}}</p>
+      </ion-item>
       </ion-label>
+
+      <ion-item lines="none" *ngIf= "status =='Finished'">
+        <ion-icon name="trophy" slot="start" color="success"></ion-icon>
+        <ion-label color="success">$15,000</ion-label>
+
+
     </ion-item>
     <ion-button *ngIf="hasfooter" color="danger" fill="clear" size="full">See all...</ion-button>
 
