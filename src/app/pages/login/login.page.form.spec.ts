@@ -30,4 +30,18 @@ it('should have email invalid if email is not vaild',()=>{
 
 });
 
+
+it('should have email valid if email is vaild',()=>{
+  form.get('email').setValue('valid@email.com');
+ expect(form.get('email').valid).toBeTruthy();
+
+});
+it('should have a valid form',()=>{
+
+form.get('email').setValue('valid@email.com');
+form.get('password').setValue('anyPAssword');
+
+expect(form.valid).toBeTruthy();
+});
+
 });

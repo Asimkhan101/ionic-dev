@@ -12,7 +12,7 @@ this.formBuilder = formBuilder;
 
   createForm(): FormGroup{
     return this.formBuilder.group({
-          emial:['',[Validators.required]],
+          emial:['',[Validators.required,Validators.email]],
           password: ['',[Validators.required]]
 
 
