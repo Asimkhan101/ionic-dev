@@ -34,10 +34,12 @@
 
   </ion-item>
   </ion-list>
-  <app-pickup-call-card color="dark" name="archive-outline" status="Processing" updatedAt="20/06/2022 12:30" createdAt=" Created at 15/06/2022" notes="we have two bags that are full,one with plastic and the other with glases" [hasHeader]="true" [hasfooter]="true"></app-pickup-call-card>
+  <app-pickup-call-card color="dark" name="archive-outline" status="Processing" updatedAt="20/06/2022 12:30" createdAt=" Created at 15/06/2022" notes="we have two bags that are full,one with plastic and the other with glases" [hasHeader]="true" [hasfooter]="true">
+
+  </app-pickup-call-card>
 
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-    <ion-fab-button color="warning">
+    <ion-fab-button color="warning" (click)="newgoToPickupcall()">
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
   </ion-fab>
