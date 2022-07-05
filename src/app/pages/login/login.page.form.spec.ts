@@ -21,7 +21,7 @@ it('should create login form empty',()=>{
   expect(form.get('password')).toBeNull('');
   expect(form.get('password').value).toEqual('');
   expect(form.get('password').valid).toBeFalsy('');
-  expect(form.get('email').value).toEqual('');
+
 });
 
 it('should have email invalid if email is not vaild',()=>{
